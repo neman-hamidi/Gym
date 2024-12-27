@@ -1,0 +1,36 @@
+.p-icon svg {
+  font-size: 1.25rem;
+}
+.p-navbar-loc {
+  font-size: 0.75rem;
+}
+.Navbars-bg {
+  background: rgb(208, 25, 25);
+  text-align: center;
+  margin: 0;
+  height: 2.5rem;
+}
+
+.Navbars-col p span {
+  padding-left: 0.5rem;
+}
+.Navbars-col p {
+  color: white;
+  padding: 0.5rem 0 0 0;
+}
+.p-icon svg {
+  padding-left: 0.15rem;
+}
+
+.fs-icon {
+  font-size: 0.25rem;
+}
+.Navbars-bg {
+  font-size: 0.75rem;
+}
+.Navbars-col {
+  padding: 0;
+}
+@media screen and(min-width:600px) {
+  
+}

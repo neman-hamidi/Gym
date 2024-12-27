@@ -1,0 +1,23 @@
+.underline {
+  width: 5rem;
+  height: 0.1rem;
+  background: red;
+  margin: 1rem auto;
+}
+.header-grid {
+  width: 80%;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 4rem;
+}
+@media screen and (min-width: 600px) {
+  .header-grid {
+    width: 80%;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: none;
+    gap: 1rem;
+  }
+}

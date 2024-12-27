@@ -1,0 +1,8 @@
+.div-row-height {
+    gap: 3rem;
+  }
+@media screen and (min-width: 600px) {
+    .div-row-height {
+        gap: 0;
+      }
+}

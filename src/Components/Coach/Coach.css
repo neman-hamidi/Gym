@@ -1,0 +1,21 @@
+.underline{
+    width: 5rem;
+    height: 0.1rem;
+    background: red;
+    margin: 1rem auto;
+}
+.coach-row {
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    gap: 2rem;
+}
+.coach-row div {
+    width: 100%;
+}
+@media screen and (min-width:600px) {
+    .coach-row {
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: none;
+    }
+    
+}

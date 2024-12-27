@@ -1,0 +1,38 @@
+.header-item {
+    border: 1px solid gray;
+    position: relative;
+    text-align: center;
+}
+.div-icon {
+    position: absolute;
+    border: 2px solid black;
+    background: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    top: -2rem;
+    left: 37%;
+}
+.icon {
+    background-color: black;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.15rem auto;
+}
+@media screen and (min-width:600px) {
+    .div-icon {
+        left: 42%;
+    }
+}

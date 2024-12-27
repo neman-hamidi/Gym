@@ -1,0 +1,26 @@
+.underline {
+  width: 5rem;
+  height: 0.1rem;
+  background: red;
+  margin: 1rem auto;
+}
+.div-img-blog img {
+  width: 35rem;
+  height: 25rem;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.div-img-blog img {
+  width: 100%;
+}
+.blogitemmain {
+  justify-content: center;
+  gap: 3rem
+}
+@media screen and (min-width: 600px) {
+  .blogitemmain {
+  }
+}

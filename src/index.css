@@ -1,0 +1,20 @@
+@font-face {
+  font-family: vazir;
+  src: url(/public/vazir/Vazir-Medium-FD-WOL.eot),
+    url(/public/vazir/Vazir-Medium-FD-WOL.ttf),
+    url(/public/vazir/Vazir-Medium-FD-WOL.woff),
+    url(/public/vazir/Vazir-Medium-FD-WOL.woff2);
+}
+body {
+  margin: 0;
+  font-family: vazir,-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

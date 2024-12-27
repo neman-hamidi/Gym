@@ -1,0 +1,32 @@
+.underline {
+  width: 5rem;
+  height: 0.1rem;
+  background: red;
+  margin: 1rem auto;
+}
+.footer {
+  background-image: url(./../../../public/gym.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer-end {
+  background-color: rgb(25, 25, 25);
+}
+.icons-footer-end {
+  color: #fff;
+  font-size: 2rem;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+}
+.div-icons-footer {
+  background: rgb(68, 68, 68);
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  position: relative;
+}

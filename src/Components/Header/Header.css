@@ -1,0 +1,60 @@
+.Header {
+  background-image: url(./../../../public/header-phone.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 70vh;
+}
+.Header-row {
+  text-align: center;
+  margin: 0;
+}
+.Header-row div {
+  padding: 0;
+  font-size: 0.5rem;
+  display: flex;
+}
+.Header-mid h4 {
+  padding-left: 0.25rem;
+  font-size: 0.5rem;
+}
+
+.middle-header {
+  margin-top: 5rem;
+  text-align: center;
+}
+.middle-header p:nth-child(1) {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.middle-header p:nth-child(2) {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.royal-p-header {
+  font-size: 1rem;
+  padding-right: 0.5rem;
+}
+@media screen and (min-width: 600px) {
+  .Header-mid h4 {
+    padding-left: 2rem;
+    display: inline;
+    font-size: 1rem;
+  }
+  .login p {
+    font-size: 0.95rem;
+  }
+  .middle-header p:nth-child(1) {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .middle-header p:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .Header {
+    background-image: url(./../../../public/header.png);
+    height: 100vh;
+  }
+}
