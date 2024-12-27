@@ -1,4 +1,4 @@
-![Logo](public/bashgah.png)
+![Logo](public/bashgah.jpg)
 
 # Getting Started with Create React App
 
