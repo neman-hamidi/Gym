@@ -7,16 +7,14 @@ import Coach from "../Coach/Coach";
 import Blog from "../Blog/Blog";
 import Footer from "../Footer/Footer";
 
-export default function Index() {
-  return (
-    <>
-      <Navsite />
-      <Header />
-      <Underheader/>
-      <Plan/>
-      <Coach/>
-      <Blog/>
-      <Footer/>
-    </>
-  );
-}
+const components = [Navsite, Header, Underheader, Plan, Coach, Blog, Footer];
+
+const Index = () => (
+  <>
+    {components.map((Component, index) => (
+      <Component key={index} />
+    ))}
+  </>
+);
+
+export default Index;
